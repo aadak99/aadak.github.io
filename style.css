@@ -1,0 +1,46 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #AFD3E2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar */
+#home {
+    background-color: #19A7CE;
+    height: 5px;
+    padding-top: 1cm;
+    font-size: 20px;
+    color: #146C94;
+}
+
+.topmenu {
+    color: #146C94;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.topmenu:hover {
+    color: #F6F1F1;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.topdiv {
+    float: right;
+    padding-right: 3cm;
+    position: relative;
+    bottom: 80px;
+}
+
+.profile_name {
+
+}
+
+float: left;
+padding-left: 1cm;
+position: relative;
+bottom: 55px;
+font-size: 25px;
