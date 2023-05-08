@@ -65,11 +65,16 @@ body {
 
 .Summary {
     position: relative;
-    bottom: 275px;
+    bottom: 300px;
     left: 280px;
-    font-size: 22px;
+    font-size: 40px;
     width: 1500px;
 }
+
+.Summary p {
+    font-size: .5em;
+}
+
 
 .all_skills {
     display: flex;
@@ -98,7 +103,7 @@ body {
     align-items: center;
 }
 
-h2 {
+#skills h2 {
   text-align: justify;
   font-size: 50px;
   text-align: center;
@@ -108,4 +113,12 @@ h2 {
   margin-left: 135px;
   margin-top: 40px;
   margin-bottom: 0px;
+}
+
+#skills h6 {
+    font-size: .8em;
+}
+
+#skills p {
+    font-size: .75em;
 }
