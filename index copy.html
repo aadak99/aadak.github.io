@@ -9,54 +9,60 @@
     <title>Webfolio</title>
 </head>
 <body>
-    <div class="snap-mandatory snap-y h-screen overflow-scroll overflow-x-hidden">
-        <div class="snap-start bg-slate-400 h-screen">
-            <div class="px-4 py-5 mx-auto bg-slate-800 sm:max-w-xl md:max-w-full md:px-24 lg:px-8 rounded">
-                <div class="flex items-center justify-between text-white">
-                    <a>AADAK.DEV</a>
-                    <ul class="items-center hidden space-x-8 lg:flex">
-                        <li><a href="#About">About Me</a></li>
-                        <li>Skills</li>
-                        <li>Projects</li>
-                    </ul>
-                    <a>Contact Me</a>
+    <div class="snap-mandatory snap-y h-screen overflow-scroll">
+        <div class="snap-start h-screen w-screen bg-slate-400">
+            <!-- Nav Bar -->
+            <div class="relative bg-slate-800 z-50">
+                <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+                    <div class="relative flex items-center justify-between text-white">
+                        <a>AADAK.DEV</a>
+                        <ul class="items-center hidden space-x-8 lg:flex">
+                            <li>About Me</li>
+                            <li>Skills</li>
+                            <li>Projects</li>
+                        </ul>
+                        <a>Contact Me</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- About Me & Skills  -->
-        <div class="snap-start bg-slate-800 h-screen w-screen">
-
+        <!-- About me --> <!-- Skills -->
+        <div class="snap-start relative h-screen w-screen bg-slate-800">
             <div class="h-2/3 border-b-2 border-slate-400">
                 <div class="items-center text-white text-center">
                     <h1 class="p-5">About Me</h1>
                 </div>
             </div>
-
             <div class="h-1/3">
                 <div class="items-center text-white text-center">
                     <h1 class="p-5">Skills</h1>
                 </div>
             </div>
         </div>
-        <!-- Projects & Contact -->
-        <div class="snap-start bg-slate-400 h-screen">
-            <div class="h-3/4 border-b-2 border-slate-800">
+        
+
+        <!-- Projects --> <!-- Contact -->
+        <div class="snap-start h-screen w-screen bg-slate-400">
+            <div class="h-2/3 border-b-2 border-slate-800">
                 <div class="items-center text-white text-center">
                     <h1 class="p-5">Projects</h1>
                     <!-- Carosel Projects -->
+                    <div>
+
+                    </div>
                 </div>
             </div>
-
-            <div class="h-1/4">
+            <div class="h-1/3">
                 <div class="items-center text-white text-center">
                     <h1 class="p-5">Contact Me</h1>
                     <!-- LinkedIn, Github, Email, Leave Info for me to reach you! -->
+                    <div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <script src="script.js"></script>
 </body>
 </html>
