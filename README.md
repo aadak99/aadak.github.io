@@ -1,1 +1,0 @@
-# aadak.github.io
