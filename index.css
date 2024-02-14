@@ -1,1 +1,74 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #003844;
+    color: white;
+    text-align: center;
+}
 
+a {
+    text-decoration: none;
+    color: #ADF0FF;
+}
+
+figure, img {
+    height: 20em;
+    border-radius: 35%;
+    margin: 0;
+    padding: 2px;
+}
+p {
+    margin: 3em;
+}
+
+#hero {
+    height: calc(100vh - 10vh);
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 15px;
+    height: 1em;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 25px;
+}
+
+.flex-container {
+    margin: 0;
+    border: 2px solid white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: calc(100vh - 4px);
+}
+
+div section {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects {
+    height: 65%;
+}
+
+#contact-me {
+    height: 35%;
+}
+
+footer p{
+    border-top: 1px solid white;
+    margin: 0;
+    padding: 1em;
+    height: 10%;
+}
